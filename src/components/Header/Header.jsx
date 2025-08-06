@@ -6,7 +6,7 @@ export default function Header({ titulo, descricao, totalProdutos }) {
         <div className={styles.header}>
             <h1>{titulo}</h1>
             <p>{descricao}</p>
-            <p>{totalProdutos} <span id="totalProducts">0</span></p>
+            <p>{totalProdutos}</p>
         </div>
     )
 }

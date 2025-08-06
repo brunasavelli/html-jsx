@@ -1,9 +1,7 @@
-.header {
-  text-align: center;
-  background: #333;
-  color: white;
-  padding: 20px;
-  margin-bottom: 30px;
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .products {
