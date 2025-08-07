@@ -1,26 +1,71 @@
 .container {
-    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
-    gap: 70px;
-    height: 58vh;
+    background-color: #333;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    animation: bounce 2s ease-in-out infinite;
+    z-index: 2;
+    position: relative;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    z-index: 2;
+    position: relative;
+}
+
+.text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: white;
+    background-clip: text;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    line-height: 1.2;
+}
+
+.text p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.6;
 }
 
 .link {
-    background-color: #33333396;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
+    position: relative;
 }
+
+.link a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+}
+

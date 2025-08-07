@@ -4,3 +4,13 @@ body {
     padding: 20px;
     background: #f5f5f5;
 }
+
+.font-cormorant-garamond-regular {
+    font-family: var(--font-cormorant-garamond);
+    font-weight: 400;
+}
+
+.font-cormorant-garamond-bold {
+    font-family: var(--font-cormorant-garamond);
+    font-weight: 700;
+}
